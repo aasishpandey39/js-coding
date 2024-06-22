@@ -30,3 +30,29 @@ const myFunction = function(){
 }
 
 console.log(typeof scoreValue);
+
+
+//****************************************************
+ 
+// Stack memory used in primitive type.
+// Heap memory used in Non-primitive type.
+
+let myYoutubename = "Ashish" // variable declare(myYoutubename)
+
+let anothername = myYoutubename
+anothername = "gamer"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "Ashish@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
