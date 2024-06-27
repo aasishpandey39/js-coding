@@ -24,7 +24,7 @@ console.log(jsUser[mySym])
 
 
 jsUser.email = "Ashish@chatgpt.com" // chage the value
-//Object.freeze(jsUser) // freeze the value, after freeze the value will not be propogate
+//Object.freeze(jsUser) // freeze the value, after freeze the value will not be propogate.
 jsUser.email = "Ashish@microsoft.com" // not will propogate
 console.log(jsUser);
 
