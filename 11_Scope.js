@@ -12,7 +12,7 @@ let a = 300 // vallue under global scope
 if(true) {
     let a = 10 
     const b = 20 
-   //  console.log("INNER:" , a); // value under block scopoe
+   //  console.log("INNER:" , a); // value under block scope
 
 }
 // for (let index = 0; index < array.length; i++) {
