@@ -7,11 +7,11 @@ else {
     console.log ("Don't havee user email");
 }
 
-//-> falsy values -
+//- falsy values -
 
 // false, 0, -0, BigInt 0n, "", null, undefined, NaN 
 
-//-> truthy values -
+//- truthy values -
 
 // "0", 'false', " ", [], {}, function(){}
 
